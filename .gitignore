@@ -53,7 +53,8 @@ typings/
 
 # dotenv environment variable files
 .env*
-
+.env
+.env.production
 # gatsby files
 .cache/
 public
@@ -67,3 +68,6 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
+
+# Local Netlify folder
+.netlify
